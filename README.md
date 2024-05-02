@@ -39,7 +39,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This repository contains the code for the dapp of a minting dApp for a cross-chain NFT collection (BNB -> Base) 
+This repository contains the code for a minting dApp for a cross-chain NFT collection (BNB -> Base) 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
