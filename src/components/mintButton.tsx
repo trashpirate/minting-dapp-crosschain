@@ -164,13 +164,15 @@ export default function MintButton({ paused }: Props) {
 
         const [sufficientBalance, approved, tokenFee] = await hasTokensApproved(address);
 
-        console.log(approved);
-
         if (!sufficientBalance) {
             setErrorMessage("You have insufficient token balance. You need 1M 0X52 tokens to mint an NFT.");
             setShowError(true);
             return;
         };
+
+        /** adjust this if no tokens used for minting */
+        // setIsMinting(true);
+        // mint();
 
         if (approved) {
             setIsMinting(true);
